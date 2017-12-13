@@ -1,0 +1,206 @@
+/* Navigtion bar problem */
+
+.navbar-brand {
+    font-weight: 700;
+    padding: 5px;
+}
+.link-header {
+    color: #ff4000;
+}
+.link-header:hover {
+    color:#ff4000;
+}
+.link1 {
+    color:#333;
+    font-weight: 750;
+}
+.link1:hover {
+    color: #ff4000;
+    
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 64, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* --------------------------------------- */
+/* SECTION 1 CASCADING */
+#heading1 {
+    font-weight: 640;
+    font-size: 60px;
+    margin: 0px;
+    margin-top:40px;
+    color: #fff;
+}
+#sec1-par {
+    font-weight: 630;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.container-fluid1 {
+    background-image: url(images/cup-of-coffee-1280537_1920.jpg);
+    background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#jumbotron1 {
+    padding-top: 6px;
+    padding-bottom:75px;
+    
+}
+
+
+.btn1 {
+    background-color: #f56b3d;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    
+    
+}
+.btn1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* -------------------------------- */
+#section2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f56b3d;
+    color: #fff;
+}
+#section2 p {
+    font-size: 19px;
+    opacity: 0.8;
+}
+hr {
+    color: #fffl;
+}
+.btn2 {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn2:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ------------ */
+
+.section3 {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.section3_1 {
+    padding: 5px;
+}
+.section3_1 h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+.sec3 {
+    padding: 5px;
+}
+.sec3 i {
+    color: #f56b3d;
+}
+.sec3 h3 {
+    font-size: 32px;
+    font-weight: 430;
+}
+.sec3 p {
+    opacity: 0.8;
+}
+
+/* ---------------------------- */
+/* portfolio section */
+.section4 {
+    padding: 0px;
+}
+.section4_1 {
+    padding: 0px;
+}
+.sec4 {
+    padding: 0px;
+    margin: 0px;
+}
+.sec4 {
+    position: relative;
+}
+.sec4 img {
+    display:block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #f56b3d;
+   
+}
+.sec4:hover .overlay {
+  opacity: 0.89;
+}
+.overlay .text-center {
+    padding: 24%;
+}
+.overlay .text-center h1 {
+    color: #fff;
+}
+.overlay .text-center p {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* ------- DOWNLOAD SECTION ------ */
+.download-section-container {
+    background-color: #1a1a1a;
+    padding: 40px;
+}
+.download-section {
+    padding: 70px;
+    padding-bottom: 100px;
+    margin-right: 0px;
+    
+}
+.download-section h3{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.download-section .btn-download {
+    border-radius: 25px;
+    padding: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+}
+.download-section .btn-download:hover {
+    background-color: #f56b3d;
+    color: #fff;
+}
+
+
+/*-------- Footer -----------------*/
+.section_5 {
+    padding: 7px;
+}
+.section_5 .text-center {
+    padding: 77px;
+}
+.section_5 .text-center .inner_paragraph {
+    font-size: 18px;
+    opacity: 0.9;
+}
